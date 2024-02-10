@@ -27,7 +27,7 @@ export default function Home() {
           </div>
 
           <Image
-            src='/assets/images/Burma_hero.jpg'
+            src='/assets/images/Burma_Hero.png'
             width={1000}
             height={1000}
             alt="hero image"
