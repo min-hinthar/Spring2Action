@@ -3,6 +3,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { Button } from '../ui/button'
+import NavItems from './NavItems'
+import MobileNav from './MobileNav'
 
 const Header = () => {
     return (
@@ -19,11 +21,21 @@ const Header = () => {
                         alt='Spring 2 Action Logo'
                     />
                 </Link>
+                {/* LG Navbar */}
+                <SignedIn>
+                    <nav className='md:flex-between hidden w-full max-w-xs'>
+                        <NavItems />
+                    </nav>
+                    
+                </SignedIn>
+
+                {/* MOBILE Navbar */}
                 <div className='flex w-32 justify-end gap-3'>
                     <SignedIn>
                         <UserButton 
                             afterSignOutUrl='/'
                         />
+                        <MobileNav />
                     </SignedIn>
                     <SignedOut>
                         <Button 
