@@ -9,8 +9,8 @@ export type CreateUserParams = {
 }
     
 export type UpdateUserParams = {
-firstName: string
-lastName: string
+firstName?: string
+lastName?: string
 username: string
 photo: string
 }
@@ -89,8 +89,8 @@ export type Event = {
     url: string
     organizer: {
     _id: string
-    firstName: string
-    lastName: string
+    firstName?: string
+    lastName?: string
     }
     category: {
     _id: string
