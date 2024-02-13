@@ -20,7 +20,7 @@ const Card = ({ event, hasOrderLink, hidePrice }: CardProps) => {
     const isEventCreator = userId === event.organizer._id.toString();
 
   return (
-    <div className='group relative flex min-h-[380px] w-full max-w-[400px] flex-col overflow-hidden rounded-xl bg-dotted-pattern shadow-md transition-all hover:shadow-lg md:min-h-[438px]'>
+    <div className='bg-dotted-pattern group relative flex min-h-[380px] w-full max-w-[400px] flex-col overflow-hidden rounded-xl shadow-md transition-all hover:shadow-lg md:min-h-[438px]'>
         <Link
             href={`/events/${event._id}`}
             style={{backgroundImage: `url(${event.imageUrl})`}}
@@ -53,7 +53,7 @@ const Card = ({ event, hasOrderLink, hidePrice }: CardProps) => {
                     <span className='p-semibold-14 w-min rounded-full bg-green-100 px-4 py-1 text-green-60'>
                         {event.isFree ? 'FREE' : `$${event.price}`}
                     </span>
-                    <p className='p-semibold-14 w-min rounded-full bg-grey-500/10 px-4 py-1 text-grey-500 line-clamp-1'>
+                    <p className='p-semibold-14 w-min rounded-full bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-gray-900 via-gray-100 to-gray-900 px-4 py-1 text-black line-clamp-1'>
                         {event.category.name}
                     </p>
                 </div>
