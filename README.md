@@ -1,6 +1,13 @@
 # Spring2Action
 
-<img src="./my-app/public/assets/images/springOverflow.png" alt="logo" width="200"/>
+<img src="./public/favicon.ico" alt="logo" width="200"/>
+
+<img src="./public/assets/images/Sprin2Action_1.jpeg" alt="logo" width="200"/>
+<img src="./public/assets/images/Sprin2Action_2.jpeg" alt="logo" width="200"/>
+<img src="./public/assets/images/Sprin2Action_3.jpeg" alt="logo" width="200"/>
+<img src="./public/assets/images/Sprin2Action_4.jpeg" alt="logo" width="200"/>
+<img src="./public/assets/images/Sprin2Action_5.jpeg" alt="logo" width="200"/>
+<img src="./public/assets/images/Sprin2Action_6.jpeg" alt="logo" width="200"/>
 
 
 ### 🌐 Demo
